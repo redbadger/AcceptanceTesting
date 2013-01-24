@@ -3,7 +3,7 @@ Feature: Example feature
   I want to be able to easily find information
 
   Scenario: Navigation to What we Do
-    Given I am on the Homepage
+    Given I am on the "Home" page
     When I click on the "What we do" link
     Then The page title should be "About us"
 
@@ -15,4 +15,9 @@ Feature: Example feature
   Scenario: Navigation to Join us
     Given I am on the Homepage
     When I click on the "Join us" link
-    Then The page title should be "Join us"
+    Then The page title should be "Join us"  
+
+  Scenario: Navigation to Contact us
+    Given I am on the Homepage
+    When I click on the "Contact us" link
+    Then The page title should be "Contact us"
