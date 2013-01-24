@@ -1,0 +1,22 @@
+{
+  "name": "Cucumber Trial",
+  "version": "0.0.0",
+  "description": "Trial of Cucumber.js for Acceptance Testing",
+  "main": "index.js",
+  "dependencies": {
+    "should": "~1.2.1",
+    "html5": "~0.3.8",
+    "zombie": "~1.4.1",
+    "cucumber": "~0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "cucumber.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redbadger/AcceptanceTesting"
+  },
+  "author": "Red Badger",
+  "license": "BSD"
+}
